@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/home/karol/THT_RSC/build",
+  "command": "/usr/bin/g++   -isystem /usr/include/opencv4  -g   -o CMakeFiles/ball.dir/src/ball.cpp.o -c /home/karol/THT_RSC/src/ball.cpp",
+  "file": "/home/karol/THT_RSC/src/ball.cpp"
+},
+{
+  "directory": "/home/karol/THT_RSC/build",
+  "command": "/usr/bin/g++   -isystem /usr/include/opencv4  -g   -o CMakeFiles/cam.dir/src/cam.cpp.o -c /home/karol/THT_RSC/src/cam.cpp",
+  "file": "/home/karol/THT_RSC/src/cam.cpp"
+},
+{
+  "directory": "/home/karol/THT_RSC/build",
+  "command": "/usr/bin/g++   -I/usr/include/opencv4  -g   -o CMakeFiles/hello.dir/src/hello.cpp.o -c /home/karol/THT_RSC/src/hello.cpp",
+  "file": "/home/karol/THT_RSC/src/hello.cpp"
+}
+]

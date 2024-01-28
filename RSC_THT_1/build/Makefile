@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/karol/THT_RSC
+CMAKE_SOURCE_DIR = /home/karol/Aksantara/THT_Aksantara2024/RSC_THT_1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/karol/THT_RSC/build
+CMAKE_BINARY_DIR = /home/karol/Aksantara/THT_Aksantara2024/RSC_THT_1/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -81,7 +81,7 @@ test/fast: test
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	/usr/bin/cpack --config ./CPackSourceConfig.cmake /home/karol/THT_RSC/build/CPackSourceConfig.cmake
+	/usr/bin/cpack --config ./CPackSourceConfig.cmake /home/karol/Aksantara/THT_Aksantara2024/RSC_THT_1/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -91,8 +91,8 @@ package_source/fast: package_source
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
+	/usr/bin/cmake-gui -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -113,9 +113,9 @@ package/fast: package
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/karol/THT_RSC/build/CMakeFiles /home/karol/THT_RSC/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/karol/Aksantara/THT_Aksantara2024/RSC_THT_1/build/CMakeFiles /home/karol/Aksantara/THT_Aksantara2024/RSC_THT_1/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/karol/THT_RSC/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/karol/Aksantara/THT_Aksantara2024/RSC_THT_1/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

@@ -1,1 +1,0 @@
-/usr/bin/g++  -g  -rdynamic CMakeFiles/THT_RSC.dir/src/hello.cpp.o  -o THT_RSC 

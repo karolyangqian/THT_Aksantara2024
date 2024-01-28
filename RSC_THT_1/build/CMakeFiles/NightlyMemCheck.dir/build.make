@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/karol/THT_RSC
+CMAKE_SOURCE_DIR = /home/karol/Aksantara/THT_Aksantara2024/RSC_THT_1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/karol/THT_RSC/build
+CMAKE_BINARY_DIR = /home/karol/Aksantara/THT_Aksantara2024/RSC_THT_1/build
 
 # Utility rule file for NightlyMemCheck.
 
@@ -71,6 +71,6 @@ CMakeFiles/NightlyMemCheck.dir/clean:
 .PHONY : CMakeFiles/NightlyMemCheck.dir/clean
 
 CMakeFiles/NightlyMemCheck.dir/depend:
-	cd /home/karol/THT_RSC/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/karol/THT_RSC /home/karol/THT_RSC /home/karol/THT_RSC/build /home/karol/THT_RSC/build /home/karol/THT_RSC/build/CMakeFiles/NightlyMemCheck.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/karol/Aksantara/THT_Aksantara2024/RSC_THT_1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/karol/Aksantara/THT_Aksantara2024/RSC_THT_1 /home/karol/Aksantara/THT_Aksantara2024/RSC_THT_1 /home/karol/Aksantara/THT_Aksantara2024/RSC_THT_1/build /home/karol/Aksantara/THT_Aksantara2024/RSC_THT_1/build /home/karol/Aksantara/THT_Aksantara2024/RSC_THT_1/build/CMakeFiles/NightlyMemCheck.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/NightlyMemCheck.dir/depend
 

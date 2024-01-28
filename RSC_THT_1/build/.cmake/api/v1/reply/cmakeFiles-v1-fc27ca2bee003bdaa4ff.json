@@ -153,11 +153,11 @@
 		},
 		{
 			"isExternal" : true,
-			"path" : "/usr/lib/x86_64-linux-gnu/cmake/opencv4/OpenCVConfig-version.cmake"
+			"path" : "/usr/local/lib/cmake/opencv4/OpenCVConfig-version.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/usr/lib/x86_64-linux-gnu/cmake/opencv4/OpenCVConfig.cmake"
+			"path" : "/usr/local/lib/cmake/opencv4/OpenCVConfig.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -171,11 +171,11 @@
 		},
 		{
 			"isExternal" : true,
-			"path" : "/usr/lib/x86_64-linux-gnu/cmake/opencv4/OpenCVModules.cmake"
+			"path" : "/usr/local/lib/cmake/opencv4/OpenCVModules.cmake"
 		},
 		{
 			"isExternal" : true,
-			"path" : "/usr/lib/x86_64-linux-gnu/cmake/opencv4/OpenCVModules-release.cmake"
+			"path" : "/usr/local/lib/cmake/opencv4/OpenCVModules-release.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -199,8 +199,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "/home/karol/THT_RSC/build",
-		"source" : "/home/karol/THT_RSC"
+		"build" : "/home/karol/Aksantara/THT_Aksantara2024/RSC_THT_1/build",
+		"source" : "/home/karol/Aksantara/THT_Aksantara2024/RSC_THT_1"
 	},
 	"version" : 
 	{

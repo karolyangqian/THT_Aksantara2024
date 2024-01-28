@@ -1,4 +1,4 @@
-# Install script for directory: /home/karol/THT_RSC
+# Install script for directory: /home/karol/Aksantara/THT_Aksantara2024/RSC_THT_1
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/karol/THT_RSC/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/karol/Aksantara/THT_Aksantara2024/RSC_THT_1/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

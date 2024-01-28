@@ -99,7 +99,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/karol/THT_RSC/build"
+			"value" : "/home/karol/Aksantara/THT_Aksantara2024/RSC_THT_1/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -203,11 +203,11 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
+					"value" : "CXX compiler"
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/g++"
+			"value" : "/usr/bin/c++"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER_AR",
@@ -335,7 +335,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/gcc"
+			"value" : "/usr/bin/c89-gcc"
 		},
 		{
 			"name" : "CMAKE_C_COMPILER_AR",
@@ -464,6 +464,18 @@
 			],
 			"type" : "FILEPATH",
 			"value" : "CMAKE_DLLTOOL-NOTFOUND"
+		},
+		{
+			"name" : "CMAKE_EDIT_COMMAND",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to cache edit program executable."
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "/usr/bin/cmake-gui"
 		},
 		{
 			"name" : "CMAKE_EXECUTABLE_FORMAT",
@@ -643,7 +655,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/karol/THT_RSC"
+			"value" : "/home/karol/Aksantara/THT_Aksantara2024/RSC_THT_1"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1799,7 +1811,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "[/usr][v4.2.0()]"
+			"value" : "[/usr/local][v4.9.0()]"
 		},
 		{
 			"name" : "GITCOMMAND",
@@ -1891,7 +1903,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "/usr/lib/x86_64-linux-gnu/cmake/opencv4"
+			"value" : "/usr/local/lib/cmake/opencv4"
 		},
 		{
 			"name" : "P4COMMAND",
@@ -1924,6 +1936,30 @@
 			],
 			"type" : "UNINITIALIZED",
 			"value" : ""
+		},
+		{
+			"name" : "RSC_THT_1_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/karol/Aksantara/THT_Aksantara2024/RSC_THT_1/build"
+		},
+		{
+			"name" : "RSC_THT_1_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/karol/Aksantara/THT_Aksantara2024/RSC_THT_1"
 		},
 		{
 			"name" : "SCPCOMMAND",
@@ -2031,7 +2067,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/karol/THT_RSC/build"
+			"value" : "/home/karol/Aksantara/THT_Aksantara2024/RSC_THT_1/build"
 		},
 		{
 			"name" : "THT_RSC_SOURCE_DIR",
@@ -2043,7 +2079,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/karol/THT_RSC"
+			"value" : "/home/karol/Aksantara/THT_Aksantara2024/RSC_THT_1"
 		}
 	],
 	"kind" : "cache",

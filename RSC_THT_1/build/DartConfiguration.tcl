@@ -4,8 +4,8 @@
 
 
 # Configuration directories and files
-SourceDirectory: /home/karol/THT_RSC
-BuildDirectory: /home/karol/THT_RSC/build
+SourceDirectory: /home/karol/Aksantara/THT_Aksantara2024/RSC_THT_1
+BuildDirectory: /home/karol/Aksantara/THT_Aksantara2024/RSC_THT_1/build
 
 # Where to place the cost data store
 CostDataFile: 
@@ -14,7 +14,7 @@ CostDataFile:
 Site: Karol
 
 # Build name is osname-revision-compiler, i.e. Linux-2.4.2-2smp-c++
-BuildName: Linux-g++
+BuildName: Linux-c++
 
 # Subprojects
 LabelsForSubprojects: 
@@ -26,7 +26,7 @@ SubmitURL: http://
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "/usr/bin/cmake" "/home/karol/THT_RSC"
+ConfigureCommand: "/usr/bin/cmake" "/home/karol/Aksantara/THT_Aksantara2024/RSC_THT_1"
 MakeCommand: /usr/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}" -- -i
 DefaultCTestConfigurationType: Release
 
@@ -62,7 +62,7 @@ UpdateOptions:
 UpdateType: 
 
 # Compiler info
-Compiler: /usr/bin/g++
+Compiler: /usr/bin/c++
 CompilerVersion: 9.4.0
 
 # Dynamic analysis (MemCheck)

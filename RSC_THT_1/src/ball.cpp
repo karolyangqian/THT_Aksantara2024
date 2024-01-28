@@ -14,7 +14,7 @@ Scalar redHigh2 = Scalar(180, 255, 255);
 int main(int argc, char** argv )
 {
 
-    VideoCapture video("/home/karol/THT_RSC/src/Red Dot.mp4");
+    VideoCapture video("/home/karol/Aksantara/THT_Aksantara2024/RSC_THT_1/src/Red Dot.mp4");
 
     while (video.isOpened())
     {

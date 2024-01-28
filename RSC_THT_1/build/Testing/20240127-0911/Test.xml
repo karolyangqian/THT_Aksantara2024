@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Site BuildName="Linux-g++"
-	BuildStamp="20240121-0745-Experimental"
+<Site BuildName="Linux-c++"
+	BuildStamp="20240127-0911-Experimental"
 	Name="Karol"
 	Generator="ctest-3.16.3"
-	CompilerName="/usr/bin/g++"
+	CompilerName="/usr/bin/c++"
 	CompilerVersion="9.4.0"
 	OSName="Linux"
 	Hostname="Karol"
@@ -24,11 +24,11 @@
 	ProcessorClockFrequency="2803.2"
 	>
 	<Testing>
-		<StartDateTime>Jan 21 17:52 WIB</StartDateTime>
-		<StartTestTime>1705834355</StartTestTime>
+		<StartDateTime>Jan 27 16:19 WIB</StartDateTime>
+		<StartTestTime>1706347187</StartTestTime>
 		<TestList/>
-		<EndDateTime>Jan 21 17:52 WIB</EndDateTime>
-		<EndTestTime>1705834355</EndTestTime>
+		<EndDateTime>Jan 27 16:19 WIB</EndDateTime>
+		<EndTestTime>1706347187</EndTestTime>
 		<ElapsedMinutes>0</ElapsedMinutes>
 	</Testing>
 </Site>

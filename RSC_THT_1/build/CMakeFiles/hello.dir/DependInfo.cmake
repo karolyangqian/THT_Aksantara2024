@@ -4,13 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/karol/THT_RSC/src/hello.cpp" "/home/karol/THT_RSC/build/CMakeFiles/hello.dir/src/hello.cpp.o"
+  "/home/karol/Aksantara/THT_Aksantara2024/RSC_THT_1/src/hello.cpp" "/home/karol/Aksantara/THT_Aksantara2024/RSC_THT_1/build/CMakeFiles/hello.dir/src/hello.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/usr/include/opencv4"
+  "/usr/local/include/opencv4"
   )
 
 # Targets to which this target links.

@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -rdynamic CMakeFiles/RSC_THT_1.dir/main.cpp.o  -o RSC_THT_1 
